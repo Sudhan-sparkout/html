@@ -1,0 +1,29 @@
+.p1{
+    /* width: 30%; */
+    background-color: aqua;
+}
+.p2{
+    /* width: 30%; */
+    background-color:beige;
+}
+.p3{
+    /* width: 30%; */
+    background-color:bisque
+}
+/* .para p{
+    float: left;
+    padding: 10px;
+} */
+/* @media all(min width:800px){
+    width: 30%;
+    float: left;
+    padding: 10px;
+} */
+@media (min-width:800px) {
+
+    .para p{
+        width: 30%;
+        float: left;
+        padding: 10px;
+    }
+}

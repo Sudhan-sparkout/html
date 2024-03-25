@@ -1,0 +1,29 @@
+.box{
+    border-width: 200px;
+   height: 300px;
+    border: 2px solid;
+}
+
+
+.p1{
+    background-color:antiquewhite;
+    flex:1;
+    position: 1;
+    /* flex-basis: auto; */
+}
+.p2{
+    background-color: aquamarine;
+    flex: 1;
+    /* flex-basis: auto; */
+}
+.p3{
+    background-color:bisque;
+flex: 1;
+/* flex-basis:auto; */
+}
+.para{
+    display: flex;
+}
+.shadow-error {
+    box-shadow: inset;
+}

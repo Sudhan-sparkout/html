@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+.divpara{
+    border: 30px solid;
+    border width:250px 250px;
+    border-image:url("OIP.jpeg") 30 stretch;
+    
+}
+p{
+    border: 1px solid blue;
+    width: 500px;
+}
+div[class~="para"]{
+    margin: 20px;
+}

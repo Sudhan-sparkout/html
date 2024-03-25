@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="signup.html" enctype="multipart/form-data">
+<div>
+    <label for ="user name">User name</label>
+    <input name="user name" id="user name" required="" type="text">
+</div>
+<div>
+<label for ="email">email</label>
+<input name ="email" type="email" id="email" placeholder="email" required>
+    </div>    
+    <div>
+        <label>Password</label>
+        <input type="password" name="password" id="password" min="8" required>
+    </div>
+   
+    <br >
+    <br >
+<div>
+    <label for="about">About</label>
+    <textarea name="about" id="about" cols="30" rows="10">Hi ...</textarea>
+</div>
+<div><input type="checkbox" name="Sms Alert" id="Sms Alert">
+    <label for="Sms Alert">Sms Alert</label>
+</div>
+<div>
+    <input type="checkbox" name="Email Alert" id="Email Alert">
+<label for="Email Alert">Email Alert</label>
+</div>
+<div>
+    <input type="radio" name="gender" id="male">
+    <label for="male">Male</label>
+</div>
+<div>
+    <input type="radio" name="gender" id="female">
+    <label for="Female">Female</label>
+</div>
+<div>
+    <select name="state " id="State" >
+        <option selected disabled>Select State</option>
+
+        <option value="Tamil nadu">Tamil nadu</option>
+        <option value="Andhra pradesh">AP</option>
+    </select>
+</div>
+<br >
+<br >
+<div>
+    <label for="resume">Resume</label>
+    <input type="file" name="resume" id="resume">
+</div>
+<br >
+<br >
+<button type="submit">submit</button>
+<button type="reset">Reset</button>
+     </form>
+     
+</body>
+</html>

@@ -1,0 +1,23 @@
+.main div{
+    border: 2px solid;
+    background-color: antiquewhite;
+    display: grid;
+    justify-content: center;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "h h h"
+    "sb1 co sb2"
+    "f f f"
+}
+.header{
+    grid-area: h;
+}
+.slidebar{
+    grid-area: sb1;
+}
+.footer{
+    grid-area:f;
+}

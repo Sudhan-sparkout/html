@@ -1,0 +1,33 @@
+.ol{
+    color:green;
+    text-decoration:none;
+}
+#black{
+    color: blue;
+    font-style: oblique;
+    letter-spacing:0.2em;
+}
+.blue{
+    color:red
+}
+ul>li{
+    color:red;
+    text-decoration: underline;
+    font-stretch:normal;
+    text-transform: capitalize;
+}
+ 
+ul{
+    color:orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-indent:2em;
+} 
+p:first-letter{
+    font-size: 2em;
+    color:blue
+}
+.p2:first-letter{
+    font-size: 2em;
+    color:blue
+}
